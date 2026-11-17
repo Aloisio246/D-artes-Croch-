@@ -7,7 +7,7 @@ Atualizado em 17/11/2026. O site é uma vitrine com pedido de orçamento pelo Wh
 - [x] Página inicial e página de políticas servidas pela Vercel.
 - [x] Logo, ícone e fotos carregam por URLs públicas.
 - [x] Título, descrição, imagem, URL canônica e idioma configurados para compartilhamento.
-- [x] Galeria mostra fotos reais; a imagem do girassol tratada identifica a edição e oferece a foto original.
+- [x] Galeria mostra dez peças reais com fundo tratado; cada cartão oferece a foto original para comparação.
 - [x] Formulário exige nome, peça e descrição; CEP e detalhes adicionais são opcionais.
 - [x] Formulário monta a mensagem no navegador e abre o WhatsApp informado, sem gravar os dados no site.
 - [x] Valores, frete, prazo e entrada são apresentados como informações a confirmar no orçamento, sem promessas inventadas.
