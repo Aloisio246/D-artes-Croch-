@@ -9,7 +9,9 @@ Revisão em 17/11/2026. A loja é uma vitrine de encomendas com atendimento pelo
 - URLs canônicas nas duas páginas, `robots.txt` e `sitemap.xml` com os endereços públicos.
 - Dados estruturados `Organization` e `WebSite` descrevem somente fatos publicados no site. Nenhum preço, avaliação ou estoque foi inventado.
 - Perguntas frequentes têm respostas diretas e visíveis. Não usamos marcação `FAQPage` para prometer um resultado enriquecido que o Google restringe a sites de saúde e governo.
-- Metatag de verificação da propriedade de prefixo `https://dartes-croche.vercel.app/` no Google Search Console.
+- Propriedade de prefixo `https://dartes-croche.vercel.app/` verificada por metatag no Google Search Console. O sitemap foi enviado e o painel detalhado confirmou duas páginas encontradas.
+
+Em 17/11/2026, a inspeção em tempo real confirmou que a página inicial pode ser indexada. Ela ainda não constava do índice. A solicitação manual de indexação foi recusada porque a cota diária da conta estava excedida; o sitemap continua enviado e o Google pode rastreá-lo normalmente.
 
 ## Próximos passos editoriais
 

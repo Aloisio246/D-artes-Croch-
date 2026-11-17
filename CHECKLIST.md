@@ -15,7 +15,7 @@ Atualizado em 17/11/2026. O site é uma vitrine com pedido de orçamento pelo Wh
 - [x] Animações leves usam opacidade e transformação; preferência por movimento reduzido é respeitada.
 - [x] Imagens abaixo da primeira tela usam carregamento adiado; a imagem principal tem prioridade alta.
 - [x] Título e descrição para busca, dados estruturados da marca, URLs canônicas, sitemap e robots.txt publicados.
-- [x] Propriedade de prefixo do Search Console preparada com metatag de verificação.
+- [x] Propriedade de prefixo do Search Console verificada por metatag; sitemap processado com duas páginas encontradas.
 
 ## Conferir com a proprietária antes de divulgar para vendas
 
