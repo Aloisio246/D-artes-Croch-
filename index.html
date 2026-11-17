@@ -38,10 +38,10 @@
 
 /* Identidade D’artes: rosa de fio, creme, marrom e pequenos acentos verdes da marca. */
 .site-header{background:rgba(255,248,247,.96)}
-.hero-art{min-height:0;aspect-ratio:3/2;display:block;border:1px solid #f0d9dd;border-radius:22px;background:#fff8f7;overflow:hidden}
-.hero-art::before{display:none}
+.hero-art{min-height:0;aspect-ratio:6/5;display:grid;place-items:center;border:1px solid #ebcbd5;border-radius:48% 48% 18px 18px;background:linear-gradient(160deg,#fffaf7,#fceef2);overflow:hidden}
+.hero-art::before{display:block;inset:16px;border:1px solid rgba(205,110,143,.32);border-radius:48% 48% 12px 12px;pointer-events:none;z-index:2}
 .hero-art::after{display:none}
-.hero-art img{display:block;width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
+.hero-art img{display:block;width:97%;height:auto;max-height:82%;object-fit:contain;mix-blend-mode:multiply;mask-image:linear-gradient(to bottom,transparent,#000 6%,#000 91%,transparent);position:relative;z-index:1}
 .intro-band{background:#f8e8ee;border-color:#f0d6df}
 .intro-inner{color:#85405d}.intro-inner i{color:#74903e}
 .card-art-wear{background:#f7dce9}.card-art-home{background:#eaf1d9}.card-art-gift{background:#f6e7dc}
