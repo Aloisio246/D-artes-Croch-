@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff8f7">
-  <link rel="icon" type="image/svg+xml" href="assets/icone-marca.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/icone-dartes-48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icone-dartes-180.png">
   <meta name="description" content="Peças de crochê criadas sob encomenda. Conte sua ideia e peça um orçamento personalizado pelo WhatsApp.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dartes-croche.vercel.app/">
@@ -38,6 +39,7 @@
 
 /* Identidade D’artes: rosa de fio, creme, marrom e pequenos acentos verdes da marca. */
 .site-header{background:rgba(255,248,247,.96)}
+.brand-mark img{display:block;width:44px;height:44px;border-radius:11px}
 .hero-art{min-height:0;aspect-ratio:6/5;display:grid;place-items:center;border:1px solid #ebcbd5;border-radius:48% 48% 18px 18px;background:linear-gradient(160deg,#fffaf7,#fceef2);overflow:hidden}
 .hero-art::before{display:block;inset:16px;border:1px solid rgba(205,110,143,.32);border-radius:48% 48% 12px 12px;pointer-events:none;z-index:2}
 .hero-art::after{display:none}
@@ -121,7 +123,7 @@ if (typeof module !== 'undefined') module.exports = { WHATSAPP_NUMBER, messageFr
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#inicio" aria-label="Voltar ao início">
-        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/><path d="M10 22c7-7 16-9 27-5M8 29c10-7 21-8 32-3M15 38c4-8 12-13 24-15M21 7c-3 11 1 22 12 33" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M35 35c5 1 8 3 11 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <span class="brand-mark" aria-hidden="true"><img src="assets/icone-dartes-48.png" width="44" height="44" alt=""></span>
         <span class="brand-name">D’artes Crochê<small>feito sob encomenda</small></span>
       </a>
       <nav class="site-nav" aria-label="Navegação principal">
