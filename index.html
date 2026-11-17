@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff8f7">
+  <link rel="icon" type="image/svg+xml" href="assets/icone-marca.svg">
   <meta name="description" content="Peças de crochê criadas sob encomenda. Conte sua ideia e peça um orçamento personalizado pelo WhatsApp.">
   <title>D’artes Crochê | Peças feitas sob encomenda</title>
   <style>
@@ -38,6 +39,7 @@
 @media(max-width:700px){.hero-art{min-height:390px}}
 @media(max-width:470px){.hero-art{min-height:330px}}
 
+.category-icon{width:138px;height:138px;filter:drop-shadow(0 14px 12px rgba(72,39,36,.12));transition:transform .2s}.possibility-card:hover .category-icon{transform:translateY(-5px)}
 </style>
   <script defer>
 const WHATSAPP_NUMBER = '5565993087631';
@@ -130,9 +132,9 @@ if (typeof module !== 'undefined') module.exports = { WHATSAPP_NUMBER, messageFr
     <section class="section container" id="possibilidades" aria-labelledby="possibilidades-title">
       <div class="section-heading"><div><p class="eyebrow">O que podemos criar</p><h2 id="possibilidades-title">Possibilidades para imaginar</h2></div><p>Estas são ideias de encomenda, não um catálogo de peças prontas. A disponibilidade de cada criação é confirmada na conversa.</p></div>
       <div class="possibilities">
-        <article class="possibility-card card-wear"><div class="card-art card-art-wear" aria-hidden="true"><span class="stitched-shape shape-wear"></span></div><div class="card-copy"><span>01 / PARA VESTIR</span><h3>Do seu jeito, no seu estilo</h3><p>Converse sobre medidas, caimento, cores e detalhes para uma peça feita especialmente para você.</p></div></article>
-        <article class="possibility-card card-home"><div class="card-art card-art-home" aria-hidden="true"><span class="stitched-shape shape-home"></span></div><div class="card-copy"><span>02 / PARA A CASA</span><h3>Afeto em cada espaço</h3><p>Ideias artesanais para trazer textura e personalidade aos cantinhos da sua casa.</p></div></article>
-        <article class="possibility-card card-gift"><div class="card-art card-art-gift" aria-hidden="true"><span class="stitched-shape shape-gift"></span></div><div class="card-copy"><span>03 / PARA PRESENTEAR</span><h3>Um presente com história</h3><p>Compartilhe a ocasião e a pessoa presenteada para pensarmos em uma criação especial.</p></div></article>
+        <article class="possibility-card card-wear"><div class="card-art card-art-wear" aria-hidden="true"><img class="category-icon" src="assets/icone-vestir.svg" alt="" width="120" height="120"></div><div class="card-copy"><span>01 / PARA VESTIR</span><h3>Do seu jeito, no seu estilo</h3><p>Converse sobre medidas, caimento, cores e detalhes para uma peça feita especialmente para você.</p></div></article>
+        <article class="possibility-card card-home"><div class="card-art card-art-home" aria-hidden="true"><img class="category-icon" src="assets/icone-casa.svg" alt="" width="120" height="120"></div><div class="card-copy"><span>02 / PARA A CASA</span><h3>Afeto em cada espaço</h3><p>Ideias artesanais para trazer textura e personalidade aos cantinhos da sua casa.</p></div></article>
+        <article class="possibility-card card-gift"><div class="card-art card-art-gift" aria-hidden="true"><img class="category-icon" src="assets/icone-presente.svg" alt="" width="120" height="120"></div><div class="card-copy"><span>03 / PARA PRESENTEAR</span><h3>Um presente com história</h3><p>Compartilhe a ocasião e a pessoa presenteada para pensarmos em uma criação especial.</p></div></article>
       </div>
     </section>
 
@@ -146,4 +148,5 @@ if (typeof module !== 'undefined') module.exports = { WHATSAPP_NUMBER, messageFr
   <footer class="site-footer"><div class="container footer-inner"><div><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">✳</span><span class="brand-name">D’artes Crochê<small>feito sob encomenda</small></span></a><p>Ideias feitas à mão, uma conversa de cada vez.</p></div><div class="footer-links"><a href="#possibilidades">Possibilidades</a><a href="#como-funciona">Como funciona</a><a href="#encomendar">Pedir orçamento</a><a href="politicas.html#encomendas">Encomendas e entrega</a><a href="politicas.html#arrependimento">Trocas e cancelamento</a><a href="politicas.html#privacidade">Privacidade</a><a href="https://wa.me/5565993087631" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> D’artes Crochê</span></div></footer>
 </body>
 </html>
+
 
