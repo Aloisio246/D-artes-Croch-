@@ -7,7 +7,7 @@ Atualizado em 17/11/2026. O site é uma vitrine com pedido de orçamento pelo Wh
 - [x] Página inicial e página de políticas servidas pela Vercel.
 - [x] Logo, ícone e fotos carregam por URLs públicas.
 - [x] Título, descrição, imagem, URL canônica e idioma configurados para compartilhamento.
-- [x] Galeria mostra dez peças reais com fundo tratado; cada cartão oferece a foto original para comparação.
+- [x] Galeria mostra treze peças reais com fundo tratado; cada cartão oferece a foto original para comparação.
 - [x] Formulário exige nome, peça e descrição; CEP e detalhes adicionais são opcionais.
 - [x] Formulário monta a mensagem no navegador e abre o WhatsApp informado, sem gravar os dados no site.
 - [x] Valores, frete, prazo e entrada são apresentados como informações a confirmar no orçamento, sem promessas inventadas.
@@ -25,7 +25,7 @@ Atualizado em 17/11/2026. O site é uma vitrine com pedido de orçamento pelo Wh
 
 ## Verificações externas pendentes
 
-- [ ] Compartilhar o link em uma conversa nova no WhatsApp e confirmar se o cartão aparece com imagem, título e descrição. O aplicativo pode guardar uma prévia antiga em cache.
+- [ ] A captura recebida em 17/11 mostra uma prévia genérica no WhatsApp, mesmo com metadados e imagem acessíveis por HTTP 200. Testar uma URL inédita no aplicativo móvel e no WhatsApp Web para separar cache local de bloqueio específico do cliente.
 - [ ] Testar manualmente o pedido completo em celular e computador sem enviar uma mensagem real à cliente.
 - [ ] Medir Core Web Vitals quando houver tráfego suficiente; ajustar conforme os dados reais.
 
