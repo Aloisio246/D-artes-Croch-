@@ -60,7 +60,14 @@
 .site-header{position:sticky;top:0}.hero-copy{animation:welcome .55s ease-out both}.hero-art{animation:welcome .7s .12s ease-out both}@keyframes welcome{from{transform:translateY(12px)}to{transform:translateY(0)}}section[id]{scroll-margin-top:100px}@media(prefers-reduced-motion:reduce){.hero-copy,.hero-art{animation:none}.real-work img{transition:none}}
 .real-work img{object-fit:contain;object-position:center;background:#fff5e9}.real-work figure:last-child{grid-column:1/-1;display:grid;grid-template-columns:1.2fr 1fr;align-items:center}.real-work figure:last-child img{height:360px}.real-work figure:last-child figcaption{font-size:19px}@media(max-width:700px){.real-work figure:last-child{display:block}.real-work figure:last-child img{height:auto;max-height:440px}}
 .real-work figcaption a.product-cta{display:inline-flex;align-items:center;justify-content:center;min-height:40px;margin-top:16px;padding:10px 16px;border-radius:999px;background:var(--clay);color:#fff;font-size:12px;font-weight:700;text-decoration:none;transition:background .2s,transform .2s}.real-work figcaption a.product-cta:hover{background:var(--clay-dark);transform:translateY(-2px)}@media(prefers-reduced-motion:reduce){.real-work figcaption a.product-cta{transition:none}}
+.scroll-progress{position:fixed;inset:0 0 auto;z-index:20;height:3px;background:var(--clay);transform:scaleX(0);transform-origin:left;pointer-events:none}
+.site-header{transition:box-shadow .25s ease,background .25s ease}.site-header.is-scrolled{background:rgba(255,248,247,.98);box-shadow:0 8px 28px rgba(64,32,38,.09)}
+.motion-ready [data-reveal]{opacity:0;transform:translate3d(0,24px,0);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.2,1);transition-delay:var(--reveal-delay,0ms)}
+.motion-ready [data-reveal].is-visible{opacity:1;transform:translate3d(0,0,0)}
+.hero-art img{transform:translate3d(0,var(--hero-shift,0px),0);will-change:transform}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.motion-ready [data-reveal]{opacity:1;transform:none;transition:none}.hero-art img{transform:none;will-change:auto}.site-header{transition:none}}
 </style>
+  <script src="assets/motion.js" defer></script>
   <script>
 const WHATSAPP_NUMBER = '5565993087631';
 
@@ -119,6 +126,7 @@ if (typeof module !== 'undefined') module.exports = { WHATSAPP_NUMBER, messageFr
 </script>
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"></div>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header">
     <div class="container header-inner">
