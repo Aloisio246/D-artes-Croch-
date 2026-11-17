@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dartes-croche.vercel.app/sitemap.xml
